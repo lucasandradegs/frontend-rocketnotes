@@ -1,4 +1,5 @@
 import { Background, Container, Form } from "./styles";
+import { Link } from "react-router-dom";
 
 import { Button } from '../../components/Button'
 import { Input } from '../../components/Input'
@@ -35,7 +36,7 @@ export function SignUp() {
 
                 <Button title="Cadastrar"/>
 
-                <a href="#">Fazer login</a>
+                <Link to="/">Fazer login</Link>
             </Form>
         </Container>
     )
